@@ -1,7 +1,7 @@
 ---
 title: Duke SURPH
 subtitle: Investigate cancer biology and pharmacology at one of the nation's most renowned research institutes
-alum: micah_olivas
+alum: micah_olivas andrew_test andrew_test2 andrew_test3
 img_url: '/images/DukeCampus.jpg'
 layout: fellowship
 info_url: 'https://nyureu.org'

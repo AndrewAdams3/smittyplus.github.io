@@ -1,0 +1,26 @@
+<h4 id="list-item-4">SFHC Alumni</h4>
+<div class="container py-3" style="display:flex">
+  <div class="row h-25 w-100">
+    {% for alum in site.alumni %}
+    {% if page.alum contains alum.lName %}
+    <div class="col-12 col-md-4 h-100 my-3">
+      <div class="card w-100 h-100" id="alumnus">
+        <div class="row">
+          <div class="col-6 col-md-8 px-3">
+            <div class="card-block px-3">
+              <h4 class="card-title">{{ alum.name }}</h4>
+              <h5 class="card-text muted-text"> C/O {{ alum.class }} </h5>
+              <p class="card-text">{{ alum.bio }}</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 mx-auto">
+            <img src="{{ alum.img_url }}" class="w-100 rounded-circle img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>

@@ -12,3 +12,9 @@
     outline-color: #800080;
     text: white;
 }
+
+#alumnus {
+  align-content: center;
+  justify-content: center;
+  padding: 1rem;
+}
